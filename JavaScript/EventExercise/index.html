@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM Interaction</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+  <input id="demo" onkeydown="keydown()" onkeyup="keyup()">
+
+  <p> Select one from the given options:
+    <select id="select1">
+        <option value="Java">Java</option>
+        <option value="PHP">PHP</option>
+        <option value="Angular">Angular</option>
+    </select>
+</p>
+
+<p> Select language is:
+    <span class="output"></span>
+</p>
+
+<button onclick="getOption()">Check option</button>
+
+
+  </body>
+</html>
