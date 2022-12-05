@@ -13,6 +13,10 @@ function longest(str1) {
     }
     return result;
 }
+<<<<<<< HEAD
+=======
+console.log("Longest word from string");
+>>>>>>> 73c753e8b269e9f5f84a9c09a5eaec1e66e90858
 console.log(longest("write a typescript program"));
 console.log("------------------------------------");
 //callback function
@@ -33,6 +37,7 @@ for (var i = 0; i < input1.length; i++) {
     }
 }
 console.log(iin);
+<<<<<<< HEAD
 console.log("------------------------------------");
 var number = 5;
 var fact = 1;
@@ -41,3 +46,5 @@ for (var i = 1; i <= number; i++) {
 }
 ;
 console.log(fact);
+=======
+>>>>>>> 73c753e8b269e9f5f84a9c09a5eaec1e66e90858
